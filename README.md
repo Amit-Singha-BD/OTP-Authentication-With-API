@@ -1,124 +1,67 @@
-# OTP Authentication with API
+<<<<<<< HEAD
+<<<<<<< HEAD
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-## Project Description
-This project is built for learning purposes to understand OTP (One-Time Password) verification during user registration using Laravel and Laravel Sanctum. It also demonstrates secure login with username/email and password, along with API token authentication for protected routes.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-The main objective of this project is to practice:
-- OTP verification during registration
-- API authentication with Laravel Sanctum
-- Protecting API routes using middleware
-- Building RESTful APIs
+## About Laravel
 
-## Features
-- User Registration with OTP verification
-- Send OTP via SMS for registration
-- Login using username/email and password
-- API Token Authentication using Laravel Sanctum
-- Protected API Routes
-- Logout (Token Revocation)
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## Tech Stack
-- Laravel
-- Laravel Sanctum
-- MySQL
-- REST API
-- cURL (for SMS API integration)
-- Postman (for API testing)
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## Installation Guide
-- Follow these 8 steps to install and set up the project.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-### Step 1
-#### Clone the Repository
+## Learning Laravel
 
-```
-git clone https://github.com/Amit-Singha-BD/OTP-Authentication-With-API.git
-cd OTP-Authentication-With-API
-```
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
 
-### Step 2
-#### Install Dependencies
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-```
-composer install
-```
+## Laravel Sponsors
 
-### Step 3
-#### Setup Environment File
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-```
-cp .env.example .env
-```
+### Premium Partners
 
-### Step 4
-#### Generate Application Key
+- **[Vehikl](https://vehikl.com)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Redberry](https://redberry.international/laravel-development)**
+- **[Active Logic](https://activelogic.com)**
 
-```
-php artisan key:generate
-```
+## Contributing
 
-### Step 5
-#### Run Migration
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-```
-php artisan migrate
-```
+## Code of Conduct
 
-### Step 6
-#### Install & Configure Sanctum (If Needed)
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-```
-php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
-php artisan migrate
-```
+## Security Vulnerabilities
 
-### Step 7
-#### Start the Development Server
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-```
-php artisan db:seed
-```
+## License
 
-### Step 8
-#### Start the Development Server
-
-```
-php artisan serve
-http://127.0.0.1:8000
-```
-
-## SMS Service Configuration
-- This project includes a custom SMS service class.
-
-### File Location
-
-```
-app/Services/SMSSent.php
-```
-
-### Environment Variables
-
-```
-SMS_API_KEY=your_sms_api_key
-SMS_API_URL=https://your-sms-gateway-url.com/api/send
-```
-
-## Authentication Flow
-- User registers with phone number
-- System generates OTP
-- OTP is sent via SMS API
-- User verifies OTP to complete registration
-- User can login using username/email and password
-- After login, Sanctum generates API token for accessing protected routes
-
-## Learning Objectives
-- Understand OTP implementation for registration verification
-- Learn Laravel Service Class usage
-- Implement external SMS Gateway API
-- Understand Laravel Sanctum token authentication
-- Protect routes using middleware
-- Practice building secure REST APIs
-
-## Author
-- Amit Singha
-- Backend Developer
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# OTP-Authentication-With-API
+>>>>>>> 5b39810de2a413155c770291ff5c7f99440b0bcb
+=======
+# OTP-Authentication-With-API
+>>>>>>> 54d271cd259a9f689afe7c5adad0f33311f327bd
